@@ -8,15 +8,19 @@
 import UIKit
 
 struct TableData {
+    let imageOne: String
     let name: String
-    let profileImage: String
-    let content: String
-    let image: String
+    let descr: String
+    let imageTwo: String
+    let imageThree: String
+    let imageFour: String
     
     static func mockData() -> [TableData] {
         [
-        TableData(name: "Petr Yan", profileImage: "circleImg", header: "Заголовок", content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore", image: "img"),
-        TableData(name: "Dmitrii Nazarov", profileImage: "circleImgTwo", header: "Заголовок", content: "Lorem ipsum dolor sit amet, consectetur adipisicing m ipsum dolor sit amet, consectetur adipisicim ipsum dolor sit amet, consectetur adipisicielit, sed do eiusmod tempor incididunt ut labore", image: "imgTwo")
+        TableData(imageOne: "img1", name: "Name Surname", descr: "fdkfmkgkgkfgfjlkfkkljhkjgfjgdfnkfdngjdfnglfggjdfngfdkgdfjgflkgfk", imageTwo: "img2", imageThree: "img3", imageFour: "img4"),
+        TableData(imageOne: "img1", name: "Name Surname", descr: "fdkfmkgkgkfgfjlkfkkljhkjgfjgdfnkfdngjdfnglfggjdfngfdkgdfjgflkgfk", imageTwo: "img2", imageThree: "img4", imageFour: "img3"),
+        TableData(imageOne: "img1", name: "Name Surname", descr: "fdkfmkgkgkfgfjlkfkkljhkjgfjgdfnkfdngjdfnglfggjdfngfdkgdfjgflkgfk", imageTwo: "img4", imageThree: "img3", imageFour: "img2"),
+        
         ]
     }
 }
